@@ -2,12 +2,17 @@
 <body>This project is a Django-based web application that provides information about historical leaders from various countries. Users can view a list of important leaders, search for specific leaders, and view detailed profiles, including images, summaries, achievements, and links to their Wikipedia pages.
 </body>
 
+![Screenshot 2024-07-11 112127](https://github.com/Pettyman123/History_leader/assets/96339698/0f1028a1-ed95-4967-842f-b393ab5c1081)
+
 <h2>Features</h2>
 <li>Home Page: Overview of the website with a search bar for quick access.</li>
 <li>Country Page: List of countries with notable leaders.</li>
 <li>Leader Profiles: Detailed information about each leader, including their lifetime, achievements, and a link to their Wikipedia page.</li>
 <li>Traits: Leaders can have various traits such as "martyred", "dictator", "revolutionary", "populist", "autocrat", "reformist", and "businessman".</li>
 <li>Responsive Design: Uses Bootstrap for a responsive and visually appealing design.</li>
+
+![Screenshot 2024-07-11 112148](https://github.com/Pettyman123/History_leader/assets/96339698/f693b38c-f98a-46d0-9c55-16002ff87eb4)
+
 
 <h2>Installation</h2>
 <li>CLone repo
@@ -49,6 +54,10 @@
 </li>
 
 <h2>Admin Panel</h2>
+
+![Screenshot 2024-07-11 112229](https://github.com/Pettyman123/History_leader/assets/96339698/24bc20e8-50a0-4271-b1a4-d094c684246d)
+
+
 To add or modify data, log in to the admin panel:
 
 <li>Go to http://127.0.0.1:8000/admin/.</li>
