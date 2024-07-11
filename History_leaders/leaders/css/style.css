@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #2F3645 !important; /* Adding !important to ensure it overrides other styles */
+}
+body {
+    background-color: #EECEB9;
+}
+.leader-image {
+    width: 20px; /* Set desired width */
+    height: 20px; /* Set desired height */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    border-radius: 50%; /* Optional: Make the image circular */
+}

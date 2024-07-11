@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Search Results{% endblock %}
+
+{% block content %}
+<h1>Search Results for "{{ query }}"</h1>
+<div class="list-group">
+    {% for leader in results %}
+    <a href="{% url 'leader_detail' leader.pk %}" class="list-group-item list-group-item-action">
+        {{ leader.name }}
+    </a>
+    {% empty %}
+    <div class="alert alert-warning" role="alert">
+        No leaders found.
+    </div>
+    {% endfor %}
+</div>
+<a href="{% url 'home' %}" class="btn btn-secondary mt-3">Back to Home</a>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}{{ leader.name }}{% endblock %}
+
+{% block content %}
+<div class="card">
+    <img class="card-img-top" src="{{ leader.image.url }}" alt="{{ leader.name }}" class="leader-image">
+    <div class="card-body" >
+        <h5 class="card-title">{{ leader.name }}</h5>
+        <p class="card-text"><strong>Lifetime:</strong> {{ leader.lifetime }}</p>
+        <p class="card-text"><strong>Achievements:</strong> {{ leader.achievements }}</p>
+        <p class="card-text"><strong>Traits:</strong>
+            <ul>
+                {% for trait in leader.traits.all %}
+                <li>{{ trait.name }}</li>
+                {% endfor %}
+            </ul>
+        </p>
+        <a href="{{ leader.wikipedia_link }}" class="btn btn-primary" target="_blank" class="leader-image">Read more on Wikipedia</a>
+    </div>
+</div>
+{% endblock %}

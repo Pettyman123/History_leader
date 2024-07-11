@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to Historical Leaders</h1>
+    <p class="lead">Explore the most influential leaders in history by country and traits.</p>
+    <a class="btn btn-primary btn-lg" href="{% url 'country_list' %}" role="button">Explore Countries</a>
+</div>
+{% endblock %}
