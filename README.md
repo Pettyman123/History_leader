@@ -72,6 +72,7 @@ To add or modify data, log in to the admin panel:
 <li>Commit your changes (git commit -m 'Add some awesome feature').</li>
 <li>Push to the branch (git push origin feature/awesome-feature).</li>
 <li>Open a pull request.</li>
+  Thanks. Have a good day.
 </ol>
 
 <h2>License</h2>
